@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import { ReactComponent as Logo} from '../../assests/crown.svg';
-
 import './header-style.scss';
 
 const Header = () => (
@@ -16,6 +14,9 @@ const Header = () => (
             </Link>
             <Link className='option' to='/shop'>
                 CONTACT
+            </Link>
+            <Link className='option' to='/signin'>
+                SIGN IN
             </Link>
         </div>
     </div>
