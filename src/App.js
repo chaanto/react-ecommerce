@@ -32,8 +32,6 @@ class App extends React.Component {
               ...get_data.data()
             }
           });
-
-          console.log(this.state);
         });
       }
       else {
