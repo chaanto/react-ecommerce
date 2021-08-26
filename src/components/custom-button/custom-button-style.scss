@@ -13,6 +13,7 @@
     font-weight: bolder;
     border: none;
     cursor: pointer;
+    overflow: hidden; //used to hide scrollbar in cart
     &:hover {
         background-color: white;
         color: black;
