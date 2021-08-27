@@ -14,6 +14,8 @@
     border: none;
     cursor: pointer;
     overflow: hidden; //used to hide scrollbar in cart
+    display: flex;
+    justify-content: center;
     &:hover {
         background-color: white;
         color: black;
@@ -24,6 +26,16 @@
         color: white;
         &:hover {
             background-color: #357ae8;
+            border: none;
+        }
+    }
+    &.inverted {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        &:hover {
+            background-color: black;
+            color: white;
             border: none;
         }
     }
