@@ -18,9 +18,17 @@
     .quantity,
     .price {
         width: 23%;
+        margin-bottom: 10px;
     }
     .quantity {
-        padding-left: 20px;
+        display: flex;
+        .arrow {
+            margin: 3px 0;
+            cursor: pointer;
+        }
+        .value {
+            margin: 0px 10px;
+        }
     }
     .remove-button {
         padding-left: 12px;
