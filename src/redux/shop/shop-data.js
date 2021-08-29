@@ -1,240 +1,330 @@
 const SHOP_DATA = [{
         id: 1,
-        title: 'Hats',
-        routeName: 'hats',
+        title: 'Figure',
+        routeName: 'figure',
         items: [{
                 id: 1,
-                name: 'Brown Brim',
-                imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-                price: 25
+                name: 'Portugas D. Ace',
+                imageUrl: 'https://i.ibb.co/4SB3GFR/ace.jpg',
+                price: 250
             },
             {
                 id: 2,
-                name: 'Blue Beanie',
-                imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-                price: 18
+                name: 'Kuzan / Aokiji',
+                imageUrl: 'https://i.ibb.co/p4Kyn56/aokiji.webp',
+                price: 150
             },
             {
                 id: 3,
-                name: 'Brown Cowboy',
-                imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-                price: 35
+                name: 'Mighty Guy',
+                imageUrl: 'https://i.ibb.co/vX7y2hc/guy.jpg',
+                price: 450
             },
             {
                 id: 4,
-                name: 'Grey Brim',
-                imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-                price: 25
+                name: 'Monkey D. Luffy',
+                imageUrl: 'https://i.ibb.co/0VCPJNr/luffy.jpg',
+                price: 400
             },
             {
                 id: 5,
-                name: 'Green Beanie',
-                imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-                price: 18
+                name: 'Naruto Sage Mode',
+                imageUrl: 'https://i.ibb.co/B45t2r8/naruto-sage.jpg',
+                price: 100
             },
             {
                 id: 6,
-                name: 'Palm Tree Cap',
-                imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-                price: 14
+                name: 'Uchiha Obito',
+                imageUrl: 'https://i.ibb.co/LkxdRj0/obito.jpg',
+                price: 230
             },
             {
                 id: 7,
-                name: 'Red Beanie',
-                imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-                price: 18
+                name: 'Akatsuki - Pain',
+                imageUrl: 'https://i.ibb.co/zGQzMgd/pain.jpg',
+                price: 90
             },
             {
                 id: 8,
-                name: 'Wolf Cap',
-                imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-                price: 14
+                name: 'Sabo Revolution Army',
+                imageUrl: 'https://i.ibb.co/hXnxS62/sabo.jpg',
+                price: 185
             },
             {
                 id: 9,
-                name: 'Blue Snapback',
-                imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-                price: 16
+                name: 'Sogeking - Usopp',
+                imageUrl: 'https://i.ibb.co/8YP5Bzd/usop.jpg',
+                price: 50
+            },
+            {
+                id: 36,
+                name: 'Zoro',
+                imageUrl: 'https://i.ibb.co/yB5BrYF/zoro.jpg',
+                price: 300
             }
         ]
     },
     {
         id: 2,
-        title: 'Sneakers',
-        routeName: 'sneakers',
+        title: 'Games',
+        routeName: 'game',
         items: [{
                 id: 10,
-                name: 'Adidas NMD',
-                imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-                price: 220
+                name: 'Harvest Moon',
+                imageUrl: 'https://i.ibb.co/7rvnrVk/harvest.jpg',
+                price: 100
             },
             {
                 id: 11,
-                name: 'Adidas Yeezy',
-                imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-                price: 280
+                name: 'Pokemon Leaf Green ',
+                imageUrl: 'https://i.ibb.co/BTrQBf3/leaf-green.png',
+                price: 100
             },
             {
                 id: 12,
-                name: 'Black Converse',
-                imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-                price: 110
+                name: 'Monster Hunter',
+                imageUrl: 'https://i.ibb.co/rMJCdNx/mh.jpg',
+                price: 50
             },
             {
                 id: 13,
-                name: 'Nike White AirForce',
-                imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-                price: 160
+                name: 'Naruto Shippuden 5',
+                imageUrl: 'https://i.ibb.co/8zxF4wQ/naruto.jpg',
+                price: 30
             },
             {
                 id: 14,
-                name: 'Nike Red High Tops',
-                imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-                price: 160
+                name: 'Naruto Ultimate Ninja Storm',
+                imageUrl: 'https://i.ibb.co/F7k3VS9/ninja-storm.jpg',
+                price: 50
             },
             {
                 id: 15,
-                name: 'Nike Brown High Tops',
-                imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-                price: 160
+                name: 'Pokemon Emerald',
+                imageUrl: 'https://i.ibb.co/VwGvw5n/poke.jpg',
+                price: 100
             },
             {
                 id: 16,
-                name: 'Air Jordan Limited',
-                imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-                price: 190
+                name: 'One Piece : World Seeker',
+                imageUrl: 'https://i.ibb.co/3zB2rPq/seeker.jpg',
+                price: 50
             },
             {
                 id: 17,
-                name: 'Timberlands',
-                imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-                price: 200
-            }
+                name: 'Gameboy Advance',
+                imageUrl: 'https://i.ibb.co/bQz2FKG/gameboy.png',
+                price: 150
+            },
+            {
+                id: 37,
+                name: 'Nintendo Switch',
+                imageUrl: 'https://i.ibb.co/PMBVh06/ns.jpg',
+                price: 799
+            },
+            {
+                id: 38,
+                name: 'Playstation 2',
+                imageUrl: 'https://i.ibb.co/091G0zV/ps2.jpg',
+                price: 399
+            },
         ]
     },
     {
         id: 3,
-        title: 'Jackets',
-        routeName: 'jackets',
+        title: 'Card Supplies',
+        routeName: 'supplies',
         items: [{
                 id: 18,
-                name: 'Black Jean Shearling',
-                imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-                price: 125
+                name: 'Shima Rin Card Sleeve',
+                imageUrl: 'https://i.ibb.co/CzBL53t/10669194.jpg',
+                price: 30
             },
             {
                 id: 19,
-                name: 'Blue Jean Jacket',
-                imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-                price: 90
+                name: 'Yu-Gi-Oh Card Sleeve',
+                imageUrl: 'https://i.ibb.co/fQzmv65/card-sleeve.jpg',
+                price: 15
             },
             {
                 id: 20,
-                name: 'Grey Jean Jacket',
-                imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-                price: 90
+                name: 'Yu-Gi-Oh Deck Box',
+                imageUrl: 'https://i.ibb.co/dQLyfbT/deckbox.jpg',
+                price: 10
             },
             {
                 id: 21,
-                name: 'Brown Shearling',
-                imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-                price: 165
+                name: 'Dice',
+                imageUrl: 'https://i.ibb.co/kDxhj9W/dice.jpg',
+                price: 5
             },
             {
                 id: 22,
-                name: 'Tan Trench',
-                imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-                price: 185
+                name: 'Dual Playmat',
+                imageUrl: 'https://i.ibb.co/r6SWr7W/mat.webp',
+                price: 25
+            },
+            {
+                id: 39,
+                name: 'Card Outer Sleeve',
+                imageUrl: 'https://i.ibb.co/p0t1Hvp/outer.webp',
+                price: 25
+            },
+            {
+                id: 40,
+                name: 'Bundle Package',
+                imageUrl: 'https://i.ibb.co/VJsSZMg/set.jpg',
+                price: 25
             }
         ]
     },
     {
         id: 4,
-        title: 'Womens',
-        routeName: 'womens',
+        title: 'Yu-Gi-Oh Card',
+        routeName: 'yugioh',
         items: [{
                 id: 23,
-                name: 'Blue Tanktop',
-                imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+                name: 'Dark Magician',
+                imageUrl: 'https://i.ibb.co/vHgjhQn/black-magician.jpg',
                 price: 25
             },
             {
                 id: 24,
-                name: 'Floral Blouse',
-                imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+                name: 'Blue Eyes White Dragon',
+                imageUrl: 'https://i.ibb.co/zhhqyrK/dra.jpg',
                 price: 20
             },
             {
                 id: 25,
-                name: 'Floral Dress',
-                imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+                name: 'Exorcist - Ellis',
+                imageUrl: 'https://i.ibb.co/fYBpCyr/ellis.png',
                 price: 80
             },
             {
                 id: 26,
-                name: 'Red Dots Dress',
-                imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+                name: 'Dragonmaid Schwarz',
+                imageUrl: 'https://i.ibb.co/HYszTP0/fusion.png',
                 price: 80
             },
             {
                 id: 27,
-                name: 'Striped Sweater',
-                imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-                price: 45
+                name: 'Odd Eyes Dragon',
+                imageUrl: 'https://i.ibb.co/5RBsmD8/odd.png',
+                price: 10
             },
             {
                 id: 28,
-                name: 'Yellow Track Suit',
-                imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+                name: 'Sky Striker Ace - Raye',
+                imageUrl: 'https://i.ibb.co/5vR1Vcw/raye.jpg',
                 price: 135
             },
             {
                 id: 29,
-                name: 'White Blouse',
-                imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+                name: 'Stardust Dragon',
+                imageUrl: 'https://i.ibb.co/jDQn86D/stardust.jpg',
+                price: 20
+            },
+            {
+                id: 41,
+                name: 'The Valkrie - Mikhaelise',
+                imageUrl: 'https://i.ibb.co/cT2Ltqc/xyz.png',
                 price: 20
             }
         ]
     },
     {
         id: 5,
-        title: 'Mens',
-        routeName: 'mens',
+        title: 'Pokemon Card',
+        routeName: 'pokemon',
         items: [{
                 id: 30,
-                name: 'Camo Down Vest',
-                imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-                price: 325
+                name: 'Charizard',
+                imageUrl: 'https://i.ibb.co/mTJz5NM/charizard.jpg',
+                price: 9999
             },
             {
                 id: 31,
-                name: 'Floral T-shirt',
-                imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-                price: 20
+                name: 'Charizard Mega',
+                imageUrl: 'https://i.ibb.co/t2z0Cmj/blue-char.jpg',
+                price: 30
             },
             {
                 id: 32,
-                name: 'Black & White Longsleeve',
-                imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+                name: 'Dratini',
+                imageUrl: 'https://i.ibb.co/d23XSTH/dratini.jpg',
                 price: 25
             },
             {
                 id: 33,
-                name: 'Pink T-shirt',
-                imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-                price: 25
+                name: 'Pikachu',
+                imageUrl: 'https://i.ibb.co/X3DYDqX/pikachu.jpg',
+                price: 100
             },
             {
                 id: 34,
-                name: 'Jean Long Sleeve',
-                imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-                price: 40
+                name: 'Lucario',
+                imageUrl: 'https://i.ibb.co/XtV9gvW/lucario.jpg',
+                price: 10
             },
             {
                 id: 35,
-                name: 'Burgundy T-shirt',
-                imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-                price: 25
+                name: 'Green Ninja',
+                imageUrl: 'https://i.ibb.co/BwmKD1n/gekkouga.jpg',
+                price: 4
+            },
+            {
+                id: 42,
+                name: 'Evee',
+                imageUrl: 'https://i.ibb.co/JyKwpxg/evee.jpg',
+                price: 1
+            },
+            {
+                id: 43,
+                name: 'Espeon',
+                imageUrl: 'https://i.ibb.co/mhpq1N4/espeon.png',
+                price: 20
+            },
+            {
+                id: 44,
+                name: 'Vaporeon',
+                imageUrl: 'https://i.ibb.co/syQdZF9/vapreon.jpg',
+                price: 10
+            },
+            {
+                id: 45,
+                name: 'Flareon',
+                imageUrl: 'https://i.ibb.co/GcLd4Lz/flareleon.jpg',
+                price: 10
+            },
+            {
+                id: 46,
+                name: 'Jolteon',
+                imageUrl: 'https://i.ibb.co/sF37rjW/jolteon.jpg',
+                price: 10
+            },
+            {
+                id: 47,
+                name: 'Leafleon',
+                imageUrl: 'https://i.ibb.co/1Lj6xnq/leafleon.jpg',
+                price: 10
+            },
+            {
+                id: 48,
+                name: 'Glaceon',
+                imageUrl: 'https://i.ibb.co/jW9gLL4/glaceon.jpg',
+                price: 20
+            },
+            {
+                id: 49,
+                name: 'Sylveon',
+                imageUrl: 'https://i.ibb.co/rt00kF7/syl.jpg',
+                price: 50
+            },
+            {
+                id: 50,
+                name: 'Umbreon',
+                imageUrl: 'https://i.ibb.co/7NfQg0f/umbreon.png',
+                price: 50
             }
         ]
     }

@@ -11,7 +11,7 @@ import CartIcon from '../cart-icon/cart-icon-component';
 import CartDropdown from '../cart-dropdown/cart-dropdown-component';
 
 
-import { ReactComponent as Logo} from '../../assests/crown.svg';
+import { ReactComponent as Logo} from '../../assests/logo.svg';
 
 import './header-style.scss';
 
@@ -19,7 +19,8 @@ import './header-style.scss';
 const Header = ({ currentUser, hidden }) => (
     <div className='header'>
         <Link className='logo-container' to="/">
-             <Logo className='logo'/>
+            <Logo className='logo'/>
+            <span>CHAANTO</span>
         </Link>
         <div className='options'>
             <Link className='option' to='/shop'>

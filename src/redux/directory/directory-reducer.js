@@ -1,36 +1,36 @@
 const INITIAL_STATE = {
 
     sections: [{
-            title: 'hats',
-            imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+            title: 'Figure',
+            imageUrl: 'https://i.ibb.co/JyWCH9c/figure.png',
             id: 1,
-            linkUrl: 'shop/hats'
+            linkUrl: 'shop/figure'
         },
         {
-            title: 'jackets',
-            imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+            title: 'Games',
+            imageUrl: 'https://i.ibb.co/fCn2bQh/console.png',
             id: 2,
-            linkUrl: 'shop/jackets'
+            linkUrl: 'shop/game'
         },
         {
-            title: 'sneakers',
-            imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+            title: 'Card Supplies',
+            imageUrl: 'https://i.ibb.co/Pw2VxNX/card.png',
             id: 3,
-            linkUrl: 'shop/sneakers'
+            linkUrl: 'shop/supplies'
         },
         {
-            title: 'womens',
-            imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+            title: 'Yu-Gi-Oh Card',
+            imageUrl: 'https://i.ibb.co/z561R2M/yugioh-logo.png',
             id: 4,
             size: 'large',
-            linkUrl: 'shop/womens'
+            linkUrl: 'shop/yugioh'
         },
         {
-            title: 'mens',
-            imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+            title: 'Pokemon Card',
+            imageUrl: 'https://i.ibb.co/r2chTKj/pokemon-logo.png',
             id: 5,
             size: 'large',
-            linkUrl: 'shop/mens'
+            linkUrl: 'shop/pokemon'
         }
     ]
 };

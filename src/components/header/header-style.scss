@@ -8,6 +8,11 @@
         height: 100%;
         width: 70px;
         padding: 25px;
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        }
     }
     .options {
         width: 50%;
