@@ -5,24 +5,31 @@ import { IoIosArrowBack, IoIosArrowForward} from 'react-icons/io';
 
 import { clearItemFromCart, addItem, removeItem } from '../../redux/cart/cart-action';
 
-import './checkout-item-style.scss';
+import {
+    CheckoutItemContainer,
+    ImageContainer,
+    TextContainer,
+    QuantityContainer,
+    RemoveButtonContainer
+  } from './checkout-item-style';
+  
  
 const CheckoutItem = ({ cartItem, clearItem , addItem, removeItem}) => {
     const { name, quantity, price, imageUrl} = cartItem;
     return(
-        <div className='checkout-item'>
-            <div className="image-container">
+        <CheckoutItemContainer>
+            <ImageContainer>
                 <img src={imageUrl} alt="item" />
-            </div>
-            <span className="name">{name}</span>
-            <span className="quantity">
+            </ImageContainer>
+            <TextContainer>{name}</TextContainer>
+            <QuantityContainer>
                 <div className="arrow" onClick={() => removeItem(cartItem)}><IoIosArrowBack /></div>
                 <span className="value">{quantity}</span>
                 <div className="arrow" onClick={() => addItem(cartItem)}><IoIosArrowForward /></div>
-            </span>
-            <span className="price">${price}</span>
-            <span className="remove-button" onClick={() => clearItem(cartItem)}><FaRegTrashAlt/></span>
-         </div>
+            </QuantityContainer>
+            <TextContainer>${price}</TextContainer>
+            <RemoveButtonContainer onClick={() => clearItem(cartItem)}><FaRegTrashAlt/></RemoveButtonContainer>
+         </CheckoutItemContainer>
     )
 };
 
